@@ -1,0 +1,12 @@
+main {
+    box-sizing: border-box;
+    background-color: var(--gray);
+    min-height: calc(100% - 30%);
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 7%;
+}
