@@ -8,7 +8,8 @@ Para visitar o projeto, <a href="https://nataliakrein.github.io/desafio-codeland
 Aprendizados:
 <ul>
   <li>Criar um mecanismo de busca;</li>
-  <li>Manipular icons do Font Awesome.</li>
+  <li>Manipular icons do Font Awesome;</li>
+  <li>Animar elementos com a biblioteca JavaScript ScrollReveal.</li>
 </ul> 
 
 ### 💻 Versão desktop
