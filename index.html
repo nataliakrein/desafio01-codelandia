@@ -77,7 +77,20 @@
 
         </section>
     </main>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    const sr = ScrollReveal({
+        origin: 'top', //origem de onde a animação está vindo
+        distance: '50px', //distância do começo da animação
+        duration: 2000, //velocidade da animação (é diferente do delay)
+        reset: false //reset da animação, controlar se toda vez que fazer o scroll a animação vai ocorrer ou não
+    });
 
+    ScrollReveal().reveal('.noticias__container', { delay: 200 });
+    ScrollReveal().reveal('.noticias__info', { delay: 400 });
+    ScrollReveal().reveal('.noticia__titulo', { delay: 500 });
+    ScrollReveal().reveal('.noticia__descricao', { delay: 600 });
+</script>
 <script src="/desafio-codelandia/assets/js/input.js"></script>
 <script type="text/javascript" src="/desafio-codelandia/assets/js/curtir.js"></script>
 </body>
