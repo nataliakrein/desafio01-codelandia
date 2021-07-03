@@ -1,7 +1,7 @@
 main {
     box-sizing: border-box;
     background-color: var(--gray);
-    min-height: calc(100% - 30%);
+    min-height: calc(100vh - 30vh);
     width: 100%;
 
     display: flex;
